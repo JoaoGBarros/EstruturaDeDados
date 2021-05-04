@@ -1,0 +1,28 @@
+strict graph {
+no1[label="Between You and Me"];
+no1--no2;
+no2[label="The Water"];
+no1--no3;
+no3[label="Gracetown"];
+no3--no4;
+no4[label="San Cisco"];
+}
+strict graph {
+no1[label="Between You and Me"];
+no1--no2;
+no2[label="The Water"];
+no1--no4;
+no4[label="San Cisco"];
+}
+strict graph {
+no1[label="Danger Days: The True Lives of The Fabulous Killjoys"];
+no1--no2;
+no2[label="The Black Parade"];
+no2--no3;
+no3[label="Three Cheers for Sweet Revenge"];
+}
+strict graph {
+no2[label="The Black Parade"];
+no2--no3;
+no3[label="Three Cheers for Sweet Revenge"];
+}
